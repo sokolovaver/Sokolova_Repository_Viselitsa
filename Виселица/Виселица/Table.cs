@@ -11,7 +11,6 @@ namespace Виселица
 {
     public partial class Table : Form
     {
-        
 
         public Table()
         {
@@ -20,13 +19,13 @@ namespace Виселица
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void Form16_Load(object sender, EventArgs e)
+        private void Table_Load(object sender, EventArgs e)
         {
-           
 
         }
     }
+
 }

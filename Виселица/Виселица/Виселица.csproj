@@ -49,12 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pravila.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pravila.Designer.cs">
-      <DependentUpon>Pravila.cs</DependentUpon>
-    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,9 +168,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameDifficultCities.resx">
       <DependentUpon>GameDifficultCities.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pravila.resx">
-      <DependentUpon>Pravila.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Table.resx">
       <DependentUpon>Table.cs</DependentUpon>

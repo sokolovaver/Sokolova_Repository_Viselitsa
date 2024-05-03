@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection.Emit;
 
 namespace Виселица
 {
@@ -21,7 +22,7 @@ namespace Виселица
             InitializeComponent();
         }
 
-        private void Form11_Load(object sender, EventArgs e)
+        private void GameDifficultAnimals_Load(object sender, EventArgs e)
         {
             string str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
             int posX = 150, posY = 150;
@@ -127,10 +128,10 @@ namespace Виселица
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Menu f1 = new Menu();
-            f1.Show();//переход на форму
-            this.Hide();//закрытие предыдущей формы
-        }
+            Menu me = new Menu();
+            me.Show();
+            this.Hide();
         }
     }
+}
 
