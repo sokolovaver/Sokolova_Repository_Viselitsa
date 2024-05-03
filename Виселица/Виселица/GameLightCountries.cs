@@ -13,9 +13,12 @@ namespace Виселица
 {
     public partial class GameLightCountries : Form
     {
+<<<<<<< HEAD
         string word;
         int numGuessesInt;
         List<char> guessedLetters;
+=======
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
 
         public GameLightCountries()
         {
@@ -24,6 +27,7 @@ namespace Виселица
 
         private void GameLightCountries_Shown(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             string str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
             int posX = 150, posY = 150;
             for (int i = 0; i < str.Count(); i++)//созданиецикла
@@ -87,13 +91,17 @@ namespace Виселица
             }
             return returnedWord;
         }
+=======
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
 
+        }
         private void button1_Click(object sender, EventArgs e)
         {
 
         }
         void button_Click(object sender, System.EventArgs e)
         {
+<<<<<<< HEAD
             Button letter_btn = sender as Button;
             string guessedLetter = letter_btn.Text;
             string letters = "";
@@ -129,13 +137,20 @@ namespace Виселица
                     start_new_game();
                 }
             }
+=======
+
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Menu me = new Menu();
             me.Show();//переход на форму
             this.Hide();//закрытие предыдущей формы
+=======
+
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         }
 
         private void label2_Click(object sender, EventArgs e)

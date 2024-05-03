@@ -13,9 +13,7 @@ namespace Виселица
 {
     public partial class GameAverageAnimals : Form
     {
-        string word;
-        int numGuessesInt;
-        List<char> guessedLetters;
+
 
         public GameAverageAnimals()
         {
@@ -23,6 +21,7 @@ namespace Виселица
         }
 
         private void GameAverageAnimals_Load(object sender, EventArgs e)
+<<<<<<< HEAD
         {
             string str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
             int posX = 150, posY = 150;
@@ -46,6 +45,8 @@ namespace Виселица
             start_new_game();
         }
         private void start_new_game()//начальная позиция
+=======
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         {
 
             numGuessesInt = 6;//количество попыток
@@ -75,6 +76,7 @@ namespace Виселица
                 bool letterMatch = false;
                 foreach (char character in guessedLetters)
 
+<<<<<<< HEAD
                     if (char.ToLower(character) == char.ToLower(letter))
                     {
                         returnedWord += character + " ";
@@ -124,13 +126,23 @@ namespace Виселица
                     start_new_game();
                 }
             }
+=======
+
+        void button_Click(object sender, System.EventArgs e)
+        {
+
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Menu me = new Menu();
             me.Show();
             this.Hide();
+=======
+
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         }
 
         private void label3_Click(object sender, EventArgs e)

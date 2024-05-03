@@ -13,9 +13,12 @@ namespace Виселица
 {
     public partial class GameDifficultCities : Form
     {
+<<<<<<< HEAD
         string word;
         int numGuessesInt;
         List<char> guessedLetters;
+=======
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         public GameDifficultCities()
         {
             InitializeComponent();
@@ -23,6 +26,7 @@ namespace Виселица
 
         private void GameDifficultCities_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             string str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
             int posX = 150, posY = 150;
             for (int i = 0; i < str.Count(); i++)//созданиецикла
@@ -123,13 +127,25 @@ namespace Виселица
                     start_new_game();
                 }
             }
+=======
+
+        }
+
+        void button_Click(object sender, System.EventArgs e)
+        {
+
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Menu me = new Menu();
             me.Show();//переход на форму
             this.Hide();//закрытие предыдущей формы
+=======
+
+>>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         }
     }
 
