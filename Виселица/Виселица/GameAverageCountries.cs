@@ -13,12 +13,9 @@ namespace Виселица
 {
     public partial class GameAverageCountries : Form
     {
-<<<<<<< HEAD
         string word;
         int numGuessesInt;
         List<char> guessedLetters;
-=======
->>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
 
         public GameAverageCountries()
         {
@@ -27,18 +24,13 @@ namespace Виселица
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             Menu me = new Menu();
             me.Show();
             this.Hide();
-=======
-
->>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         }
 
         private void GameAverageCountries_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             string str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
             int posX = 150, posY = 150;
             for (int i = 0; i < str.Count(); i++)//созданиецикла
@@ -107,20 +99,6 @@ namespace Виселица
             Button letter_btn = sender as Button;
             string guessedLetter = letter_btn.Text;
             string letters = "";
-=======
-
-        }
-
-        void button_Click(object sender, System.EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            
-        }
->>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
 
             bool repeat = false;
             for (int i = 0; i < guessedLetters.Count; i++)
@@ -153,19 +131,16 @@ namespace Виселица
                 }
             }
         }
-<<<<<<< HEAD
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
 
         }
-=======
->>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
     }
 }
 

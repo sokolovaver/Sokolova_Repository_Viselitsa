@@ -24,27 +24,12 @@ namespace Виселица
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             Menu me = new Menu();
             me.Show();
             this.Hide();
         }
 
         private void GameLightAnimals_Load(object sender, EventArgs e)
-=======
-
-        }
-
-        private void GameLightAnimals_Load(object sender, EventArgs e)
-        {
-
-        }
-        void button_Click(object sender, System.EventArgs e)
-        {
-
-        }
-        private void label2_Click(object sender, EventArgs e)
->>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
         {
             string str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
             int posX = 150, posY = 150;
@@ -109,7 +94,6 @@ namespace Виселица
             }
             return returnedWord;
         }
-<<<<<<< HEAD
         void button_Click(object sender, System.EventArgs e)
         {
             Button letter_btn = sender as Button;
@@ -150,12 +134,9 @@ namespace Виселица
         }
         private void label2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
-=======
-
->>>>>>> c0c4bf92cdb21feb31f290bbc32c964e37a72e7c
     }
 
 }
