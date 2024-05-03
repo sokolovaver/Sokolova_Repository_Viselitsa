@@ -61,17 +61,53 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameAverageAnimals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameAverageAnimals.Designer.cs">
+      <DependentUpon>GameAverageAnimals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameDifficultAnimals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameDifficultAnimals.Designer.cs">
+      <DependentUpon>GameDifficultAnimals.cs</DependentUpon>
+    </Compile>
     <Compile Include="DifficultyCities.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DifficultyCities.Designer.cs">
       <DependentUpon>DifficultyCities.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameLightCities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameLightCities.Designer.cs">
+      <DependentUpon>GameLightCities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameAverageCities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameAverageCities.Designer.cs">
+      <DependentUpon>GameAverageCities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameDifficultCities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameDifficultCities.Designer.cs">
+      <DependentUpon>GameDifficultCities.cs</DependentUpon>
+    </Compile>
     <Compile Include="Player.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Player.Designer.cs">
       <DependentUpon>Player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameLightCountries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameLightCountries.Designer.cs">
+      <DependentUpon>GameLightCountries.cs</DependentUpon>
     </Compile>
     <Compile Include="Spravka.cs">
       <SubType>Form</SubType>
@@ -85,6 +121,24 @@
     <Compile Include="DifficultyCountries.Designer.cs">
       <DependentUpon>DifficultyCountries.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameAverageCountries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameAverageCountries.Designer.cs">
+      <DependentUpon>GameAverageCountries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameDifficultCountries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameDifficultCountries.Designer.cs">
+      <DependentUpon>GameDifficultCountries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameLightAnimals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameLightAnimals.Designer.cs">
+      <DependentUpon>GameLightAnimals.cs</DependentUpon>
+    </Compile>
     <Compile Include="DifficultyAnimals.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,8 +151,23 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GameAverageAnimals.resx">
+      <DependentUpon>GameAverageAnimals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameDifficultAnimals.resx">
+      <DependentUpon>GameDifficultAnimals.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DifficultyCities.resx">
       <DependentUpon>DifficultyCities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameLightCities.resx">
+      <DependentUpon>GameLightCities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameAverageCities.resx">
+      <DependentUpon>GameAverageCities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameDifficultCities.resx">
+      <DependentUpon>GameDifficultCities.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pravila.resx">
       <DependentUpon>Pravila.cs</DependentUpon>
@@ -106,11 +175,23 @@
     <EmbeddedResource Include="Player.resx">
       <DependentUpon>Player.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GameLightCountries.resx">
+      <DependentUpon>GameLightCountries.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Spravka.resx">
       <DependentUpon>Spravka.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DifficultyCountries.resx">
       <DependentUpon>DifficultyCountries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameAverageCountries.resx">
+      <DependentUpon>GameAverageCountries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameDifficultCountries.resx">
+      <DependentUpon>GameDifficultCountries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameLightAnimals.resx">
+      <DependentUpon>GameLightAnimals.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DifficultyAnimals.resx">
       <DependentUpon>DifficultyAnimals.cs</DependentUpon>
