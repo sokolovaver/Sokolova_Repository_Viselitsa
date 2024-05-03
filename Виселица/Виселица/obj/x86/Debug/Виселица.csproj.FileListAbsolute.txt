@@ -1,0 +1,128 @@
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\bin\Debug\Виселица.exe
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\bin\Debug\Виселица.pdb
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form1.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Properties.Resources.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.csproj.GenerateResource.Cache
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.exe
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.pdb
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form2.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form3.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.csprojResolveAssemblyReference.cache
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.exe
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.pdb
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\bin\Debug\Виселица.exe
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\bin\Debug\Виселица.pdb
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.csprojResolveAssemblyReference.cache
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.Form1.resources
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.Form2.resources
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.Form3.resources
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.Form4.resources
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.Properties.Resources.resources
+C:\Users\s_9_7_000\Desktop\Курсач\Виселица\Виселица\obj\x86\Debug\Виселица.csproj.GenerateResource.Cache
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form4.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form5.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form6.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form7.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form8.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form9.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form10.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form11.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form12.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form13.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form14.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form15.resources
+C:\Users\s_9_7_000\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form16.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.exe
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.pdb
+C:\Users\N1cE\Desktop\Виселица\Виселица\bin\Debug\Виселица.exe
+C:\Users\N1cE\Desktop\Виселица\Виселица\bin\Debug\Виселица.pdb
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.csprojResolveAssemblyReference.cache
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form1.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form10.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form11.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form12.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form13.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form14.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form15.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form16.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form2.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form3.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form4.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form5.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form6.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form7.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form8.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Form9.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.Properties.Resources.resources
+C:\Users\N1cE\Desktop\Виселица\Виселица\obj\x86\Debug\Виселица.csproj.GenerateResource.Cache
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.exe
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.pdb
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\bin\Debug\Виселица.exe
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\bin\Debug\Виселица.pdb
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.csprojResolveAssemblyReference.cache
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form1.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form10.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form11.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form12.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form13.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form14.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form15.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form16.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form2.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form3.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form4.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form5.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form6.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form7.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form8.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Form9.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.Properties.Resources.resources
+C:\Users\s_9_7_000\Desktop\Новая папка (2)\Виселица\Виселица\obj\x86\Debug\Виселица.csproj.GenerateResource.Cache
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.exe
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.pdb
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\bin\Debug\Виселица.exe
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\bin\Debug\Виселица.pdb
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.csprojResolveAssemblyReference.cache
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form1.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form10.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form11.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form12.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form13.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form14.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form15.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form16.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form2.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form3.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form4.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form5.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form6.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form7.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form8.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Form9.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.Properties.Resources.resources
+C:\Users\s_9_7_000\Desktop\Курсовой проект\Виселица\Виселица\obj\x86\Debug\Виселица.csproj.GenerateResource.Cache
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\bin\Debug\Виселица.exe.config
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\bin\Debug\Виселица.exe
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\bin\Debug\Виселица.pdb
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.csproj.AssemblyReference.cache
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form1.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form10.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form11.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form12.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form13.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form14.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form15.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form16.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form2.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form3.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form4.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form5.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form6.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form7.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form8.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Form9.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.Properties.Resources.resources
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.csproj.GenerateResource.cache
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.csproj.CoreCompileInputs.cache
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.exe
+C:\Users\socol\OneDrive\Документы\вогу\2 курс\2 семестр\Виселица\Виселица\obj\x86\Debug\Виселица.pdb
