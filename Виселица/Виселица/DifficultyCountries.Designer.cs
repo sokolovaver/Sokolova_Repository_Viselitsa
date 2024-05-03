@@ -40,9 +40,9 @@
             this.button1.Font = new System.Drawing.Font("Book Antiqua", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(16, 183);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 56);
+            this.button1.Size = new System.Drawing.Size(181, 64);
             this.button1.TabIndex = 0;
             this.button1.Text = "Лёгкий";
             this.button1.UseVisualStyleBackColor = false;
@@ -53,10 +53,10 @@
             this.button2.BackColor = System.Drawing.Color.SandyBrown;
             this.button2.Font = new System.Drawing.Font("Book Antiqua", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button2.Location = new System.Drawing.Point(187, 183);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(205, 183);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(181, 56);
+            this.button2.Size = new System.Drawing.Size(193, 64);
             this.button2.TabIndex = 1;
             this.button2.Text = "Средний";
             this.button2.UseVisualStyleBackColor = false;
@@ -67,10 +67,10 @@
             this.button3.BackColor = System.Drawing.Color.SandyBrown;
             this.button3.Font = new System.Drawing.Font("Book Antiqua", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button3.Location = new System.Drawing.Point(376, 183);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(406, 183);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(205, 56);
+            this.button3.Size = new System.Drawing.Size(217, 64);
             this.button3.TabIndex = 2;
             this.button3.Text = "Сложный";
             this.button3.UseVisualStyleBackColor = false;
@@ -85,11 +85,11 @@
             this.label1.Location = new System.Drawing.Point(11, 113);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(464, 41);
+            this.label1.Size = new System.Drawing.Size(447, 40);
             this.label1.TabIndex = 3;
             this.label1.Text = "Выбор уровня сложности: ";
             // 
-            // Form5
+            // DifficultyCountries
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -99,10 +99,10 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form5";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "DifficultyCountries";
             this.Text = "Выбор уровня сложности";
-            this.Load += new System.EventHandler(this.Form5_Load);
+            this.Load += new System.EventHandler(this.DifficultyCountries_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

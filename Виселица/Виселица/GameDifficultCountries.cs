@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection.Emit;
 
 namespace Виселица
 {
     public partial class GameDifficultCountries : Form
     {
-        
 
         public GameDifficultCountries()
         {
@@ -21,18 +21,19 @@ namespace Виселица
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void Form7_Load(object sender, EventArgs e)
+        private void GameDifficultCountries_Load(object sender, EventArgs e)
         {
-            
+
         }
-        
+
         void button_Click(object sender, System.EventArgs e)
         {
-            
+
         }
     }
+
 }
 

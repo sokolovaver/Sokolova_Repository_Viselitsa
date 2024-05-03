@@ -41,10 +41,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.SandyBrown;
             this.label1.Font = new System.Drawing.Font("Book Antiqua", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(385, 9);
+            this.label1.Location = new System.Drawing.Point(313, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(473, 41);
+            this.label1.Size = new System.Drawing.Size(461, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Лёгкий уровень сложности";
             // 
@@ -78,7 +78,7 @@
             this.button1.BackColor = System.Drawing.Color.SandyBrown;
             this.button1.Font = new System.Drawing.Font("Book Antiqua", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(41, 363);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(217, 50);
             this.button1.TabIndex = 3;
@@ -89,13 +89,13 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(585, 169);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(273, 235);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // Form8
+            // GameLightAnimals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,10 +106,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form8";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "GameLightAnimals";
             this.Text = "Виселица";
-            this.Load += new System.EventHandler(this.Form8_Load);
+            this.Load += new System.EventHandler(this.GameLightAnimals_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

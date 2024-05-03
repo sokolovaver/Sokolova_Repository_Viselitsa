@@ -69,11 +69,11 @@
             this.label1.Font = new System.Drawing.Font("Book Antiqua", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(25, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(325, 41);
+            this.label1.Size = new System.Drawing.Size(300, 40);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Таблица рекордов";
+            this.label1.Text = "Таблица лидеров";
             // 
-            // Form16
+            // Table
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -84,9 +84,9 @@
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.Name = "Form16";
+            this.Name = "Table";
             this.Text = "Таблица лидеров";
-            this.Load += new System.EventHandler(this.Form16_Load);
+            this.Load += new System.EventHandler(this.Table_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
