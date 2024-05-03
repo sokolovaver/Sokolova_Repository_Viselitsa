@@ -18,27 +18,34 @@ namespace Виселица
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Player pl = new Player();
+            pl.Show();//переход на форму
+            this.Hide();//закрытие предыдущей формы
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            Spravka sp = new Spravka();
+            sp.Show();//переход на форму
+            this.Hide();//закрытие предыдущей формы
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            Application.Exit(); //кнопка выхода
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Menu_Load(object sender, EventArgs e)
         {
 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-           
+            Table tab = new Table();
+            tab.Show();//переход на форму
+            this.Hide();//закрытие предыдущей формы
         }
     }
+
 }
