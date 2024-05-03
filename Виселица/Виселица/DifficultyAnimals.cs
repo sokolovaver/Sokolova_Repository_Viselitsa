@@ -23,17 +23,23 @@ namespace Виселица
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            GameLightAnimals gla = new GameLightAnimals();
+            gla.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            GameAverageAnimals gaa = new GameAverageAnimals();
+            gaa.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            GameDifficultAnimals gda = new GameDifficultAnimals();
+            gda.Show();
+            this.Hide();
         }
     }
 

@@ -18,17 +18,23 @@ namespace Виселица
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            GameLightCountries glcount = new GameLightCountries();
+            glcount.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            GameAverageCountries gacount = new GameAverageCountries();
+            gacount.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            GameDifficultCountries gdcount = new GameDifficultCountries();
+            gdcount.Show();
+            this.Hide();
         }
 
         private void DifficultyCountries_Load(object sender, EventArgs e)
