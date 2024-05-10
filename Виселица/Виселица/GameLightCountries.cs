@@ -1,4 +1,16 @@
-﻿using System;
+﻿/**
+    @file GameLightCountries.cs
+    @brief Файл окна игрового поля для лёгкого уровня категории стран
+    @copyright Viselitsa
+    @author Соколова В.А.
+    @date 10-05-2024
+    @version 1.1.20
+\par Использует класс:
+    @ref GameLightCountries
+\par Содержит класс:
+    @ref GameLightCountries
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,17 +23,33 @@ using System.Reflection.Emit;
 
 namespace Виселица
 {
+    /**
+    @brief Класс GameLightCountries
+
+    Основной и единственный класс, отвечающий за окно игрового поля для лёгкого уровня категории стран
+    */
     public partial class GameLightCountries : Form
     {
-        string word;
-        int numGuessesInt;
-        List<char> guessedLetters;
+        string word; ///< Необходимое слово
+        int numGuessesInt; ///< Число догадок
+        List<char> guessedLetters; ///< Угаданные буквы
 
+        /// Метод инициализации
+        /** Инициализация всех компонентов окна Игровое поле лёгкого уровня категории стран
+        */
         public GameLightCountries()
         {
             InitializeComponent();
         }
 
+        /// Метод-обработчик вывода
+        /** Вывод кнопок с буквами для выбора букв угадываемого слова
+        @param str Все буквы алфавита
+        @param posX Позиция X для рисования кнопок
+        @param posY Позиция Y для рисования кнопок
+        @param i Счётчик кнопок
+        @param button Переменная для создания кнопки
+        */
         private void GameLightCountries_Shown(object sender, EventArgs e)
         {
             string str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
@@ -45,23 +73,46 @@ namespace Виселица
             }
             start_new_game();
         }
-        private void start_new_game()//начальная позиция
+
+        /// Метод начальной позиции игры
+        /** Отображение начальной позиции игрового поля
+        @param numGuessesInt Количество попыток
+        @param guessedLetters Отгаданные буквы
+        @param word Слово для отгадывания
+        */
+        private void start_new_game()
         {
 
-            numGuessesInt = 6;//количество попыток
-            guessedLetters = new List<char>();//отгаданные буквы
+            numGuessesInt = 6;
+            guessedLetters = new List<char>();
             word = pickWord();
             MessageBox.Show("Угадай страну");
             label2.Text = displayWord();
             label3.Text = "";
             pictureBox1.Load(@"Виселица 1.jpg");
         }
-        static string pickWord()//выбор слова рандомно
+
+        /// Метод выбора слова рандомно
+        /** Выбор слова рандомно
+        @param wordList Список слов
+        @param randomGen Выбранное слово
+        */
+        static string pickWord()
         {
             string[] wordList = File.ReadAllLines("Страны.txt");//открытие текстового файла
             Random randomGen = new Random();
             return wordList[randomGen.Next(wordList.Count())];
         }
+
+        /// Метод ввода угадываемого слова
+        /** Ввод угадываемого слова
+        @param returnedWord Возвращаемое слово
+        @param guessedLetters Угаданные буквы
+        @param letter Буквы
+        @param word Слово
+        @param letterMatch Совпадающие буквы
+        @param character Переменная для поочерёдного угадывания букв в слове
+        */
         private string displayWord()
         {
             string returnedWord = "";
@@ -88,10 +139,22 @@ namespace Виселица
             return returnedWord;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
 
-        }
+
+        /// Метод вывода изображений виселицы различной степени заполнения
+        /** Вывод изображений виселицы различной степени заполнения
+        @param letter_btn Кнопка для буквы
+        @param sender Вид изображения
+        @param guessedLetter Угаданная буква
+        @param letters Слова
+        @param repeat Повторение букв
+        @param i Счётчик угаданных букв
+        @param guessedLetters Угаданные буквы
+        @param word Угадываемое слово
+        @param numGuessesInt Количество догадок
+        @param letter Буква
+        @param wordToDisplay Слово для отображения
+        */
         void button_Click(object sender, System.EventArgs e)
         {
             Button letter_btn = sender as Button;
@@ -131,6 +194,12 @@ namespace Виселица
             }
         }
 
+        /** 
+       @brief Кнопка button1
+       
+       Запускает открытие окна основного меню игры
+       @param me Переменная для открытия основного меню игры
+       */
         private void button1_Click_1(object sender, EventArgs e)
         {
             Menu me = new Menu();
@@ -138,21 +207,33 @@ namespace Виселица
             this.Hide();//закрытие предыдущей формы
         }
 
+        /// Метод-обработчик нажатия
+        /** Вывод поля для ввода угадываемого слова
+        */
         private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
+        /// Метод-обработчик нажатия
+        /** Вывод поля для вывода уровня сложности
+        */
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
+        /// Метод-обработчик нажатия
+        /** Вывод поля для вывода букв
+        */
         private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
+        /// Метод-обработчик нажатия
+        /** Вывод поля для вывода изображения виселицы
+        */
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 

@@ -1,4 +1,16 @@
-﻿using System;
+﻿/**
+    @file GameDifficultCities.cs
+    @brief Файл окна игрового поля для сложного уровня категории городов
+    @copyright Viselitsa
+    @author Соколова В.А.
+    @date 10-05-2024
+    @version 1.1.20
+\par Использует класс:
+    @ref GameDifficultCities
+\par Содержит класс:
+    @ref GameDifficultCities
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,31 +23,48 @@ using System.Reflection.Emit;
 
 namespace Виселица
 {
+    /**
+    @brief Класс GameDifficultCities
+
+    Основной и единственный класс, отвечающий за окно игрового поля для сложного уровня категории городов
+    */
     public partial class GameDifficultCities : Form
     {
-        string word;
-        int numGuessesInt;
-        List<char> guessedLetters;
+        string word; ///< Необходимое слово
+        int numGuessesInt; ///< Число догадок
+        List<char> guessedLetters; ///< Угаданные буквы
+
+        /// Метод инициализации
+        /** Инициализация всех компонентов окна Игровое поле сложного уровня категории городов
+        */
         public GameDifficultCities()
         {
             InitializeComponent();
         }
 
+        /// Метод-обработчик вывода
+        /** Вывод кнопок с буквами для выбора букв угадываемого слова
+        @param str Все буквы алфавита
+        @param posX Позиция X для рисования кнопок
+        @param posY Позиция Y для рисования кнопок
+        @param i Счётчик кнопок
+        @param button Переменная для создания кнопки
+        */
         private void GameDifficultCities_Load(object sender, EventArgs e)
         {
             string str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
             int posX = 150, posY = 150;
-            for (int i = 0; i < str.Count(); i++)//созданиецикла
+            for (int i = 0; i < str.Count(); i++)/// Создание цикла
             {
 
                 Button button = new Button();
-                button.BackColor = Color.PaleTurquoise;//цветкнопки
-                button.Text = str[i] + "";//присваивает значение след.буквы
+                button.BackColor = Color.PaleTurquoise;/// Цвет кнопки
+                button.Text = str[i] + "";/// Присваивает значение след.буквы
                 button.Click += new EventHandler(this.button_Click);
-                button.Location = new System.Drawing.Point(posX, posY);//рисованиекнопки
-                button.Size = new System.Drawing.Size(35, 30);//заданиеразмеракнопки
-                this.Controls.Add(button);//добавлениекнопки
-                posX += button.Width;//ширинакнопки
+                button.Location = new System.Drawing.Point(posX, posY);/// Рисование кнопки
+                button.Size = new System.Drawing.Size(35, 30);/// Задание размера кнопки
+                this.Controls.Add(button);/// Добавление кнопки
+                posX += button.Width;/// Ширина кнопки
                 if ((i + 1) % 8 == 0)
                 {
                     posX = 150;
@@ -44,23 +73,46 @@ namespace Виселица
             }
             start_new_game();
         }
-        private void start_new_game()//начальная позиция
+
+        /// Метод начальной позиции игры
+        /** Отображение начальной позиции игрового поля
+        @param numGuessesInt Количество попыток
+        @param guessedLetters Отгаданные буквы
+        @param word Слово для отгадывания
+        */
+        private void start_new_game()
         {
 
-            numGuessesInt = 6;//количество попыток
-            guessedLetters = new List<char>();//отгаданные буквы
+            numGuessesInt = 6;
+            guessedLetters = new List<char>();
             word = pickWord();
             MessageBox.Show("Угадай город");
             label2.Text = displayWord();
             label3.Text = "";
             pictureBox1.Load(@"Виселица 1.jpg");
         }
-        static string pickWord()//выбор слова рандомно
+
+        /// Метод выбора слова рандомно
+        /** Выбор слова рандомно
+        @param wordList Список слов
+        @param randomGen Выбранное слово
+        */
+        static string pickWord()
         {
-            string[] wordList = File.ReadAllLines("Города сл.ур.txt");//открытие текстового файла
+            string[] wordList = File.ReadAllLines("Города сл.ур.txt");/// Открытие текстового файла
             Random randomGen = new Random();
             return wordList[randomGen.Next(wordList.Count())];
         }
+
+        /// Метод ввода угадываемого слова
+        /** Ввод угадываемого слова
+        @param returnedWord Возвращаемое слово
+        @param guessedLetters Угаданные буквы
+        @param letter Буквы
+        @param word Слово
+        @param letterMatch Совпадающие буквы
+        @param character Переменная для поочерёдного угадывания букв в слове
+        */
         private string displayWord()
         {
             string returnedWord = "";
@@ -86,6 +138,21 @@ namespace Виселица
             }
             return returnedWord;
         }
+
+        /// Метод вывода изображений виселицы различной степени заполнения
+        /** Вывод изображений виселицы различной степени заполнения
+        @param letter_btn Кнопка для буквы
+        @param sender Вид изображения
+        @param guessedLetter Угаданная буква
+        @param letters Слова
+        @param repeat Повторение букв
+        @param i Счётчик угаданных букв
+        @param guessedLetters Угаданные буквы
+        @param word Угадываемое слово
+        @param numGuessesInt Количество догадок
+        @param letter Буква
+        @param wordToDisplay Слово для отображения
+        */
         void button_Click(object sender, System.EventArgs e)
         {
             Button letter_btn = sender as Button;
@@ -101,7 +168,7 @@ namespace Виселица
                 guessedLetters.Add(guessedLetter.ToCharArray()[0]);
                 if (!word.ToLower().Contains(char.ToLower(guessedLetter.ToCharArray()[0])))
                     numGuessesInt -= 1;
-                pictureBox1.Load(@"Виселица " + (7 - numGuessesInt) + ".jpg");//изменение картинки если не угадал букву
+                pictureBox1.Load(@"Виселица " + (7 - numGuessesInt) + ".jpg");/// Изменение картинки, если не угадал букву
 
 
                 foreach (char letter in guessedLetters) letters += " " + letter;
@@ -125,11 +192,17 @@ namespace Виселица
             }
         }
 
+       /** 
+       @brief Кнопка button1
+       
+       Запускает открытие окна основного меню игры
+       @param me Переменная для открытия основного меню игры
+       */
         private void button1_Click(object sender, EventArgs e)
         {
             Menu me = new Menu();
-            me.Show();//переход на форму
-            this.Hide();//закрытие предыдущей формы
+            me.Show();/// Переход на форму
+            this.Hide();/// Закрытие предыдущей формы
         }
     }
 
